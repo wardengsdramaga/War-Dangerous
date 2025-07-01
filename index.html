@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardengs Dramaga - War-Dangerous</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo diatass.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS tambahan untuk tulisan sumber video (ukuran lebih kecil) */
+        .video-source {
+            font-size: 0.5em; /* Ukuran font diubah menjadi 0.5em (lebih kecil) */
+            color: #666; /* Warna abu-abu agar tidak terlalu mencolok */
+            text-align: right; /* Menempatkan tulisan di kanan */
+            margin-top: 5px;
+            /* Untuk memastikan teks sumber berada dalam konteks item video */
+            width: 100%;
+            display: block;
+        }
+        /* Jika item video perlu posisi relatif agar teks sumber bisa diatur dengan posisi absolut (opsional, tergantung desain) */
+        .collection-grid .item {
+            position: relative; /* Penting jika Anda ingin memposisikan teks secara absolut di masa depan */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Wardengs Dramaga Logo">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#collections">Koleksi</a></li>
+                <li><a href="#collective">Kolektif</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <div class="close-btn">&times;</div>
+        <div class="mobile-logo">
+            <img src="images/logo.png" alt="Wardengs Logo">
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#collections">Koleksi</a></li>
+                <li><a href="#collective">Kolektif</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-slider">
+                <div class="slide active" style="background-image: url(images/wrdngspalestinegambar.png);"></div>
+                <div class="slide" style="background-image: url(images/backround1.png);"></div>
+            </div>
+            <div class="hero-overlay">
+                <h1>WARDENGS DRAMAGA</h1>
+                <p>Didirikan pada tahun 2012, di sebuah sudut Dramaga, Bogor. Wardengs adalah tempat untuk berbagi ide, menciptakan sesuatu, dan menumbuhkan rasa solidaritas dalam kolektif. Kami percaya bahwa perubahan bisa dimulai dari mana saja — bahkan dari sebuah tempat nongkrong.</p>
+            </div>
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p style="max-width: 800px; margin: 0 auto 30px; font-size: 1.1em;">
+                Wardengs Dramaga, atau sering disebut War-Dangerous, didirikan pada tahun 2012 di sebuah sudut Dramaga, Bogor. Pada awalnya, itu hanyalah tempat berkumpul bagi para remaja yang mencari pelarian, dan sempat terlibat dalam hal-hal yang, kalau dipikir-pikir sekarang, mungkin lebih baik tidak dilakukan. Seiring waktu, Wardengs perlahan berkembang menjadi sebuah kolektif.
+            </p>
+            <p style="max-width: 800px; margin: 0 auto; font-size: 1.1em;">
+                Kini, Wardengs adalah tempat untuk berbagi ide, menciptakan sesuatu, dan menumbuhkan rasa solidaritas dalam kolektif. Sebab kami percaya bahwa perubahan bisa dimulai dari mana saja — bahkan dari sebuah tempat nongkrong.
+            </p>
+        </section>
+
+        <section id="collections">
+            <h2>WARDENGS COLLECTION</h2>
+
+            <h3>Project: 11/12</h3>
+            <div class="collection-grid">
+                <div class="item">
+                    <img src="images/model 1.png" alt="Model 2">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 1</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/model 2.png" alt="Model 4">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 2</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/model 3.png" alt="Model 1">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 3</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/model 4.png" alt="Model 3">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 4</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/model 5.png" alt="Model 6">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 5</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/model 6.png" alt="Model 5">
+                    <div class="item-content">
+                        <h4>"11/12" - Look 6</h4>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 60px;">Project: SUN</h3>
+            <div class="collection-grid">
+                <div class="item">
+                    <img src="images/baju.png" alt="T-shirt SUN Collection">
+                    <div class="item-content">
+                        <h4>SUN Collection T-Shirt</h4>
+                        <p>Desain koleksi "SUN" kami yang ikonik.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <video controls autoplay muted loop>
+                        <source src="videos/0622.mp4" type="video/mp4">
+                    </video>
+                    <p class="video-source">source video: youtube</p>
+                    <div class="item-content">
+                        <h4>Video Kampanye SUN Collection</h4>
+                        <p>Lihat lebih dekat koleksi "SUN" dalam aksi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="collective">
+            <h2>RUANG-RIUNG</h2>
+            <p style="max-width: 800px; margin: 0 auto 30px; font-size: 1.1em;">
+                "RUANG-RIUNG" adalah wujud nyata dari semangat kolektif dan solidaritas kami. Setiap individu menemukan tempat untuk berekspresi, berbagi ide, dan membangun ikatan kuat yang menolak segala bentuk penindasan. Kami percaya bahwa kekuatan kolektif dapat menjadi suara yang lantang untuk kesetaraan, dan bahwa aparat seharusnya menjadi pelindung, bukan alat represi. Melalui kebersamaan ini, kami menggaungkan pesan bahwa kebebasan berekspresi dan rasa aman adalah hak setiap warga, dan kami akan selalu berdiri bersama melawan segala bentuk tindakan represif yang merampas hak-hak tersebut.
+            </p>
+            <div class="collective-grid">
+                <div class="item">
+                    <img src="images/Untitled-1_01.jpg" alt="Kegiatan Kolektif 1">
+                </div>
+                <div class="item">
+                    <img src="images/Untitled-1_02.jpg" alt="Kegiatan Kolektif 2">
+                </div>
+                <div class="item">
+                    <img src="images/Untitled-1_03.jpg" alt="Kegiatan Kolektif 3">
+                </div>
+                <div class="item">
+                    <img src="images/Untitled-1_04.jpg" alt="Kegiatan Kolektif 4">
+                </div>
+                <div class="item">
+                    <img src="images/9861538.png" alt="Kegiatan Kolektif 5">
+                </div>
+            </div>
+
+            <h2 style="margin-top: 60px;">BERDISTRAKSI</h2>
+            <p style="max-width: 800px; margin: 0 auto 30px; font-size: 1.1em;">
+                BERDISTRAKSI adalah akronim dari Berkeliling Kota, Diskusi, dan Aksi Berbagi. Ini adalah bentuk kolektif yang lahir dari kami terhadap isu kelaparan, sekaligus protes nyata terhadap penanganannya.
+            </p>
+            <p style="max-width: 800px; margin: 0 auto 30px; font-size: 1.1em;">
+                Kami meyakini bahwa kelaparan adalah penderitaan serius yang harus ditangani, mengingat dampak buruknya terhadap derajat kesehatan. Jika di masa normal saja akses pangan bisa menjadi sulit, apalagi di tengah kondisi krisis seperti pandemi yang pernah dilalui—diperlukan sumber daya untuk memerangi kelaparan.
+            </p>
+            <p style="max-width: 800px; margin: 0 auto 30px; font-size: 1.1em;">
+                Melalui BERDISTRAKSI, secara perlahan dan dalam skala kecil ini, kami tidak hanya mengajak, tetapi juga memulai langkah konkret untuk memberantas kelaparan. Ini adalah suara dan tindakan untuk menyerukan hak pangan bagi semua.
+            </p>
+            <div class="collective-grid berdistraksi-grid">
+                <div class="item">
+                    <img src="images/berdistraksi 1.jpg" alt="Kegiatan Berdistraksi: Kumpul Malam">
+                </div>
+                <div class="item">
+                    <img src="images/berdistraksi 2.jpg" alt="Kegiatan Berdistraksi: Berbagi Makanan">
+                </div>
+                <div class="item">
+                    <img src="images/berdistraksi 3.jpg" alt="Kegiatan Berdistraksi: Konvoi di Jalan">
+                </div>
+                <div class="item">
+                    <img src="images/berdistraksi 4.jpg" alt="Kegiatan Berdistraksi: Persiapan Aksi">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2025 Wardengs Dramaga.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/wardengs_dramaga/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/wardengsdramaga" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:wardengsdramaga@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
